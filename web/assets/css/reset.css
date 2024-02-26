@@ -1,0 +1,50 @@
+* {
+    /* 盒子模型 */
+    box-sizing: border-box;
+    /* 清除内边距 */
+    padding: 0;
+    /* 清除外边距 */
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* 清除文本粗体 */
+    font-weight: normal;
+    /* 清除字体大小 */
+    font-size: 1em;
+}
+
+ul,
+ol,
+dd {
+    /* 清除列表符号 */
+    list-style: none;
+}
+
+a {
+    /* 清除文字颜色 */
+    color: unset;
+    /* 清除下划线 */
+    text-decoration: none;
+    /* 默认点击 */
+    cursor: pointer;
+}
+
+form input {
+    /* 清除边框 */
+    border: 0;
+    /* 清除聚焦 */
+    outline: 0;
+}
+
+button {
+    /* 清除边框 */
+    border: 0;
+    /* 默认点击 */
+    cursor: pointer;
+}
